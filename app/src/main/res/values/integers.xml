@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="city_ids">
+        <item>1701668</item>
+        <item>3067696</item>
+        <item>1835848</item>
+    </integer-array>
+</resources>

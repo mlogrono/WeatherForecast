@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="corner_radius">5dp</dimen>
+    <dimen name="recyclerview_item_margin">10dp</dimen>
+    <dimen name="image_heart_dimensions">20dp</dimen>
+</resources>

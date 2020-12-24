@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Weather Forecast</string>
+    <string name="weather_api_key">981d9f8a2c5c139aa40cb30e4f4794ec</string>
+    <string name="alternative_error">Something went wrong!</string>
+</resources>
