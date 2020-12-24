@@ -1,5 +1,6 @@
 package com.app.forecast.viewmodels
 
+import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -40,6 +41,8 @@ class WeatherDetailsViewModel @Inject constructor(
             .subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())
             .subscribe({ response ->
+
+                Log.i(">>>>", "TO CONFIRM SINGLE: ${response}")
                 weatherLiveData.postValue(Resource.success(response))
             }, {
                 it.printStackTrace()

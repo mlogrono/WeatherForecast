@@ -10,7 +10,7 @@ android {
     compileSdkVersion 29
 
     defaultConfig {
-        applicationId "com.app.weatherforecast"
+        applicationId "com.app.forecast"
         minSdkVersion 21
         targetSdkVersion 29
         versionCode 1

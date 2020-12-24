@@ -21,6 +21,6 @@
             android:name="boundItem"
             app:nullable="true"
             android:defaultValue="@null"
-            app:argType="com.app.weatherforecast.views.BoundDisplayItem" />
+            app:argType="com.app.forecast.views.BoundDisplayItem" />
     </fragment>
 </navigation>

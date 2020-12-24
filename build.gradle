@@ -3,7 +3,6 @@ buildscript {
     ext.gradle_version = "4.1.1"
     ext.kotlin_version = "1.4.21"
     ext.navsafe_version = "2.3.2"
-    ext.epoxy_version = '2.18.0'
     repositories {
         google()
         jcenter()
