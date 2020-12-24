@@ -41,8 +41,6 @@ class WeatherDetailsViewModel @Inject constructor(
             .subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())
             .subscribe({ response ->
-
-                Log.i(">>>>", "TO CONFIRM SINGLE: ${response}")
                 weatherLiveData.postValue(Resource.success(response))
             }, {
                 it.printStackTrace()

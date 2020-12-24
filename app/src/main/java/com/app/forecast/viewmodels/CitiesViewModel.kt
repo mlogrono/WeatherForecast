@@ -43,7 +43,6 @@ class CitiesViewModel  @Inject constructor(
             .subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())
             .subscribe({ response ->
-                Log.i(">>>>", "TO CONFIRM: ${response.cities}")
                 citiesLiveData.postValue(Resource.success(response.cities))
             }, {
                 it.printStackTrace()
