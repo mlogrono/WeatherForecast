@@ -85,14 +85,14 @@ class WeatherDetailsFragment : Fragment() {
             if (boundItem.indicator) {
                 R.drawable.heart_filled
             } else {
-                R.drawable.heart_outline
+                R.drawable.heart_outlined
             }
         )
 
         binding.favoriteCity.setOnClickListener {
             if (boundItem.indicator) {
                 boundItem.favorite = null
-                binding.favoriteCity.setImageResource(R.drawable.heart_outline)
+                binding.favoriteCity.setImageResource(R.drawable.heart_outlined)
                 boundItem.indicator = false
             } else {
                 boundItem.favorite = ResourcesCompat.getDrawable(resources, R.drawable.heart_filled, this.activity?.theme)

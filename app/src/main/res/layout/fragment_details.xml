@@ -33,7 +33,7 @@
             app:layout_constraintBottom_toTopOf="@id/current_temperature" />
         <ImageView
             android:id="@+id/favorite_city"
-            android:background="@drawable/heart_outline"
+            android:background="@drawable/heart_outlined"
             android:layout_width="@dimen/image_heart_dimensions"
             android:layout_height="@dimen/image_heart_dimensions"
             app:layout_constraintTop_toTopOf="@id/current_city"
